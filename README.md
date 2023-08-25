@@ -3,17 +3,15 @@
 **Group Assignment: Collaborative Mad Libs Game using Git and GitHub**
 
 **Objective:**
-The goal of this group assignment is to familiarize students with collaborative software development using Git and GitHub. In this assignment, students will work together to create a Mad Libs game. Each student will contribute by adding words to the story from their own development branches. They will then use pull requests to integrate their changes into the main branch and manage potential merge conflicts entirely within GitHub's online interface.
+The goal of this group assignment is to familiarize students with collaborative software development using Git and GitHub. In this assignment, students will work together to play a Mad Libs game. Each student will contribute by adding words to the story from their own development branches. They will then use pull requests to integrate their changes into the main branch and manage potential merge conflicts entirely within GitHub's online interface.
 
 **Instructions:**
 
 **Step 1: Setting Up the Project Repository**
 
-1. The instructor will create a new GitHub repository for the Mad Libs game.
+1. After you accept the assignment, you will need to join the group corresponding to your assigned group on Canvas.
 
-2. Students will be divided into groups and assigned to a team. Each team will have its own fork of the main repository.
-
-3. Each student should clone their team's forked repository to their local development environment using the following command:
+2. Each student should clone their team's repository to their local development environment using the following command:
    ```
    git clone <repository_url>
    ```
@@ -22,7 +20,7 @@ The goal of this group assignment is to familiarize students with collaborative 
 
 In their local repository, students should create a new branch for their contributions. The branch should be named according to a convention, for example, `<username>-madlibs`.
 
-Each student will choose a predetermined number of placeholders to fill in with words of their choice from the `madlibs_list.txt` file provided below. The placeholders should be divided evenly within the group.
+The `madlibs_list.txt` file provided below contains placeholders that need to be filled in without viewing the story template. Each student should fill in some of the placeholders in the `madlibs_list.txt` file within his or her own development branch, and the placeholders should be divided evenly among group members.
 
 **`madlibs_list.txt` File:**
 
@@ -76,16 +74,16 @@ Best wishes,
 
 **Step 4: Collaborative Development and Pull Requests**
 
-1. After filling in the story, each student should push their branch to their team's forked repository on GitHub:
+1. After filling in his or her part of the story, each student should push their branch to their team's repository on GitHub:
    ```
    git push origin <username>-madlibs
    ```
 
 2. Once all students have pushed their changes, they should open pull requests (PRs) to merge their individual branches into the main branch of the team's repository.
 
-3. All members of the team should participate in reviewing and merging pull requests. The goal is to ensure that each student's contributions are appropriate and fit the context of the story.
+3. All members of the team should participate in reviewing and merging pull requests.  Specifically, **each student should complete each of the following actions at least once**: 1) create a PR, 2) comment on a PR, 3) review a PR, and 4) merge a PR.
 
-**Step 5: Managing Merge Conflicts Online**
+**Note: Steps for Managing Merge Conflicts**
 
 1. If conflicts arise during the PR merging process, they will be indicated in the GitHub interface.
 
@@ -99,18 +97,21 @@ Best wishes,
 
 6. After resolving conflicts, students can request another review from a team member and, upon approval, proceed to merge the PR.
 
-**Step 6: Finalizing the Project**
+**Step 5: Finalizing the Project**
 
 1. Once all PRs are merged, the Mad Libs story will be complete.
 
-2. The team can test the game by running a script that replaces the placeholders in the story with the chosen words.
-
-3. The final version of the Mad Libs game should be available in the main branch of the team's repository.
+2. The final version of the Mad Libs story should be available in the main branch of the team's repository in the `story.txt` file as well as the complete list of words in the `madlibs_list.txt` file.
 
 **Assessment:**
 
-Students will be assessed based on their ability to effectively use Git and GitHub for collaborative development, their understanding of branching, pull requests, conflict resolution, and the creativity of their contributions to the Mad Libs story.
+Students will be assessed based on their ability to effectively use Git and GitHub for collaborative development, their understanding of branching, pull requests, conflict resolution, and the creativity of their contributions to the Mad Libs story.  More specifically, the assignment is worth 10 points, and the following grading will apply:
+1. +2 points for the `story.txt` and `madlibs_list.txt` being complete.
+2. +2 points for creating at least 1 PR.
+3. +2 points for reviewing at least 1 PR.
+4. +2 points for adding at least 1 comment to a PR.
+5. +2 points for merging at least 1 PR.
 
 **Submission:**
 
-There's no need for a separate submission as the progress will be tracked through the GitHub repository, pull requests, and merged branches. However, each student can document their contributions and experiences in a brief report to be submitted along with the final assessment.
+There's no need for a separate submission as the progress will be tracked through the GitHub repository, pull requests, and merged branches. 
