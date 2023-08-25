@@ -1,4 +1,4 @@
-# madlibstemplate
+# Collaborative Development Using Git and GitHub: Mad Libs Version
 
 **Group Assignment: Collaborative Mad Libs Game using Git and GitHub**
 
